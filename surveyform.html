@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="./surveystyle.css">
+
+</head>
+
+<body>
+    <h3>Name<span>*</span></h3>
+    <input type="text" class="fname" alt="Firstname" required>
+    <input type="text" class="lname" alt="Firstname">
+    <p>First
+        <span>Last</span>
+    </p>
+    <h3>Email<span>*</span></h3>
+    <input type="email" class="email" alt="Firstname" required>
+    <h3>Your Experience<span>*</span></h3>
+    <form>
+        <div class="rating">
+            <input type='radio' hidden name='rate' id='rating-opt5' data-idx='0'>
+            <label for='rating-opt5'></label>
+
+            <input type='radio' hidden name='rate' id='rating-opt4' data-idx='1'>
+            <label for='rating-opt4'></label>
+
+            <input type='radio' hidden name='rate' id='rating-opt3' data-idx='2'>
+            <label for='rating-opt3'></label>
+
+            <input type='radio' hidden name='rate' id='rating-opt2' data-idx='3'>
+            <label for='rating-opt2'></label>
+
+            <input type='radio' hidden name='rate' id='rating-opt1' data-idx='4'>
+            <label for='rating-opt1'></label>
+        </div>
+    </form>
+    <p>Overall, how would you rate you experience with us?</p>
+    <h3>How satisfied are you with<span>*</span></h3>
+
+    <table>
+        <tr>
+            <td></td>
+            <td>Very Unsatisfied</td>
+            <td>Unsatisfied</td>
+            <td>Neutral</td>
+            <td>satisfied</td>
+            <td>Very satisfied</td>
+        </tr>
+        <tr>
+            <td class="sidehead">Purchase</td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+
+        </tr>
+        <tr>
+            <td class="sidehead">Service</td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+        </tr>
+        <tr>
+            <td class="sidehead">Company Overall</td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+        </tr>
+    </table>
+
+    <h3>How likaly are you to<span>*</span></h3>
+    <table class="table2">
+        <tr>
+            <td></td>
+            <td>Very Unlikely</td>
+            <td>Unlikely</td>
+            <td>Neutral</td>
+            <td>likely</td>
+            <td>Very likely</td>
+        </tr>
+        <tr>
+            <td class="sidehead">Buy from us again</td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+
+        </tr>
+        <tr>
+            <td class="sidehead">Recommand our <br>product to others</td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+        </tr>
+        <tr>
+            <td class="sidehead">Recommand our<br>company to others</td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+        </tr>
+    </table>
+    <h3>Additional comments or suggestions</h3>
+    <textarea class="comment "></textarea>
+    <input type="submit">
+</body>
+
+</html>
